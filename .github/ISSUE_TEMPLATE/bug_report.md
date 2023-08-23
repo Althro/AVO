@@ -2,7 +2,7 @@
 name: Bug report
 about: Use this to report bugs with the list.
 title: "[BUG]"
-labels: ''
+labels: Possible Bug
 assignees: Althro
 
 ---
