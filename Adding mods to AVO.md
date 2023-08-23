@@ -36,7 +36,7 @@ Do not use Loot. Use xEdit, follow the "left matching right" philosophy and also
 
 If you add any mod with a plugin, it's recommended to re-run Synthesis. The patchers are split into 2 groups and can be seen below:
 
-![Picture showing Synthesis groups with the patchers](https://raw.githubusercontent.com/The-Animonculory/AVO-NG/main/.github/SynthesisData.webp)
+![Picture showing Synthesis groups with the patchers](https://github.com/Althro/AVO/blob/main/.github/AddingModsPics/SynthGroup.png?raw=true)
 
 No custom data is used in these patches so you can just simply run them.
 
