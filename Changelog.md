@@ -1,5 +1,14 @@
 # Changelog
 
+## 6.1
+
+**Key Information**
+- Switched back to Happy Little Trees/Shrubs/Logs to get better consistency.
+- Added option for Silent Horizons 2 (comes on by default)
+- Removed XPMSSE in favour of SlavicPotato's approach to node management.
+- Updated mods which required updates.
+- Regenned all finishing line.
+
 ## 6.0 - "Simplicity of Skyrim"
 
 `Released: 18/08/2023`
