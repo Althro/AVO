@@ -32,7 +32,7 @@ Wabbajack Modlist Installer by Althro with support from Aetherius Modding.
 
 **Althro's Visual Overhaul** (AVO) is designed as a "true to vanilla list" to build your own list upon. It has been installed over 10 thousand times and garnered a reputation for being incredibly stable and is, as the quote says, "the best way to make your own list."
 
-AVO seeks to bring the game up to modern standards and integrate official content without changing the things that make Skyrim Skyrim. Expect to find minimal tweaks to settlements, full integration of Creation Club content, and a comprehensive graphical overhaul which doesn't require a PC which'll melt the permafrost.
+AVO seeks to bring the game up to modern standards and integrate official content without changing the things that make Skyrim Skyrim. Expect to find minimal tweaks to settlements, integration of Creation Club content, and a comprehensive graphical overhaul which doesn't require a PC which'll melt the permafrost.
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
@@ -50,9 +50,9 @@ Running the list from Hard Disk Drives or external drives is **STRONGLY ADVISED 
 
 ### Recommended System Requirements
 
-AVO requires a mid to high tier modern system to run to it's fullest potential. If you are using the Community Shaders option, a slightly older CPU and Ram may deliver similar results.
+AVO requires a mid to high tier modern system to run to it's fullest potential.
 
-Recommended for ENB @ 1080p/60fps:
+Recommended 1080p/60fps:
 
 | Component    | Recommended | Example |
 |:--------------:|:-------------:|:---------:|
@@ -61,7 +61,7 @@ Recommended for ENB @ 1080p/60fps:
 | Storage | SSD | 1TB Sata based |
 | GPU | 8GB VRAM | RTX 2070/3060 **or** AMD RX6700xt |
 
-Recommended for ENB @ 1440p/60fps:
+Recommended 1440p/60fps:
 
 | Component    | Recommended | Example |
 |:--------------:|:-------------:|:---------:|
@@ -118,7 +118,7 @@ Downloading and installing AVO can take a while depending on your internet conne
 
 1. Open Wabbajack and click on browse modlists. Check the tickbox that says `show unofficial`.
 2. Press the download button on AVO and wait for it to download.
-3. Set the installation folder to be somewhere like C:\Games\AVONG. **Do not install it to your desktop or downloads folder.**
+3. Set the installation folder to be somewhere like C:\Games\AVO. **Do not install it to your desktop or downloads folder.**
 4. The download location does not need to be on a SSD but it makes installing a bit faster.
 5. Press the play button to begin.
 6. Go and pet your nearest fluffy animal whilst Wabbajack does its thing. Alternatively read through this readme again.
@@ -149,21 +149,18 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 ## :floppy_disk: Post-Installation
 
 
-### :file_folder: Stock Game
+### :file_folder: Stock Game & Root Builder
 
 AVO utilises a Wabbajack technology called Stock Game. What this essentially does is create a copy of your Skyrim installation within the installation location of the list. This enables greater compatability with other mod-lists.
 
+As of version 7, AVO now utilise Root Builder alongside Stock Game to enable easier management of hooks such as Reshade and Engine Fixes. Please see the Animonculory [guide on Root Builder](https://github.com/The-Animonculory/Modding-Resources/blob/main/Root Builder for Skyrim AE.md) for more details.
 ***
 
 ### :telescope: Post Processing
 
-AVO uses [Cathedral Weathers](https://www.nexusmods.com/skyrimspecialedition/mods/24791) for its weather mod and the full [Lux suite](https://www.nexusmods.com/skyrimspecialedition/mods/43158) for lighting. By default, the list comes pre-setup with [Ljoss ReLUX ENB](https://www.nexusmods.com/skyrimspecialedition/mods/63578) which can easily be disabled. [Community Shaders (CS)](https://www.nexusmods.com/skyrimspecialedition/mods/86492) is also included for those that wish to use it.
+AVO uses [Obsidian Weathers](https://www.nexusmods.com/skyrimspecialedition/mods/12125) for its weather mod and the full [Lux suite](https://www.nexusmods.com/skyrimspecialedition/mods/43158) for lighting. By default, the list comes pre-setup with [Community Shaders (CS)](https://www.nexusmods.com/skyrimspecialedition/mods/86492) and all addons required to power [Amethyst Reshade](https://www.nexusmods.com/skyrimspecialedition/mods/99450).
 
-To turn off the ENB and utilise CS, simply open the ENB manager and turn it off.
-
-For adding your own presets and more details, take a look at ENB Organizer for more information.
-
-**NOTE**: Screenshots save to `AVO\Game Root\[NoDelete] Screenshots\Character Name`.
+**NOTE**: Screenshots save to `Overwrite\Game Root`.
 
 **NOTE**: By default, the list is **capped at 72fps**. To change this, you will need to adjust the `ini` file in `SSE Display Tweaks`.
 
@@ -205,9 +202,6 @@ Beginning with this edition of AVO, there are changes to how the creation club i
 
 - Armors have been distributed to NPC's with the quests being diasabled entirely.
 - Certain artifacts are scattered across the province. You may well find them guarded by strong enemies so go prepared.
-- Nimhe now lives up to her name (**NOT** recommend for those averse to spiders.)
-- There are rumours that the Emperor now holds an artifact worthy of their station.
-- You may spot some rather expensive fine jewelry on those wealthier citizens of certain holds. What you do with this information is your decision...
 	
 ## :chart_with_upwards_trend: Updating the modlist
 
