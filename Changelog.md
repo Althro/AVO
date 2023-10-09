@@ -1,5 +1,20 @@
 # Changelog
 
+## 7.0 - "Visions of Aetherius"
+
+**Key Information**
+- Added Grass lods to improve overall LOD detail and also distant visuals -> This is done at minimal to no performance loss
+- Added some optional mods which can safely be turned off (Enabled by default)
+- Complete comb in xEdit to fix any errors, bugs and ensure consistency
+- Fixed issues with CC added content -> This is now integrated differently and some quests have been disabled. Expect to find more CC content around the worldspace.
+- Re-added CBBE and bodyslide to enable body texture consistency
+- Replaced ENB with Community Shaders + Kreate (No ENB is included)
+- Reworked all textures and meshes based off V3.x to gain greater consistency and performance.
+- Switched to Obsidian Weathers and Lux suite for lighting
+- Switched to V3.x base for simplification and performance improvements
+- Tweaked Quick Start setup to be more inline with "starting chest"
+- Updated all mods which required updates
+
 ## 6.1
 
 **Key Information**
@@ -25,7 +40,7 @@
 - LOD improved and reworked to take advantage of newer DynDOLOD techniques.
 - **Major** refactor of patches and patching with help from Umgak. (Big thanks for all your help).
 - Majorly reworked meshes to provide overall better performance and headroom for other mods.
-- Removed CBBE & HIMBO (You can add them back easily if you want them. They aren't coming back.)
+- Removed CBBE & HIMBO (You can add them back easily if you want them.)
 - Reworked Animations setup to improve consistency and utilise some newer mods/features with reduced load on the scripting engine.
 - Reworked Trees & Plant setup. Performance is similar or better than before.
 - Simplified multiple areas to allow for greater consistency.
