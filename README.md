@@ -79,7 +79,7 @@ My specs (1440p 21x9 ENB @ locked 72fps):
 | Storage | 2TB M.2 NVME |
 | GPU | RTX 3090 FE | 
 
-Space required: Approx 181GB (Downloads included) + 30GB working room for Wabbajack.
+Space required: Approx 203GB (Downloads included) + 30GB working room for Wabbajack.
 
 :warning: **NOTE**: AMD RX 580 and older cards are **not supported**. :warning:
 
