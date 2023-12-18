@@ -30,9 +30,9 @@ Wabbajack Modlist Installer by Althro with support from Aetherius Modding.
 >
 > `"...absolutely amazing..."`
 
-**Althro's Visual Overhaul** (AVO) is designed as a "true to vanilla list" to build your own list upon. It has been installed over 10 thousand times and garnered a reputation for being incredibly stable and is, as the quote says, "the best way to make your own list."
+**Althro's Visual Overhaul** (AVO) is designed as a "true to vanilla list" to build your own list upon. It has been installed over 12 thousand times and garnered a reputation for being incredibly stable and is, as the quote says, "the best way to make your own list."
 
-AVO seeks to bring the game up to modern standards and integrate official content without changing the things that make Skyrim Skyrim. Expect to find minimal tweaks to settlements, integration of Creation Club content, and a comprehensive graphical overhaul which doesn't require a PC which'll melt the permafrost.
+AVO seeks to bring the game up to modern standards utilising some of the best techniques and technologies availiable, whilst still remaining within reach of most modders. Expect to find minimal tweaks to settlements, essential bug fixes and tweaks, and an extremely well rounded and comprehensive graphical overhaul package.
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
@@ -40,9 +40,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ### Disclaimer
 
-Owing to the need to clean master files and certain errors with Wabbajack, AVO only supports **English Steam** versions of Skyrim AE. **GOG and other Languages are not supported**.
+Owing to the need to clean master files and certain errors with Wabbajack, AVO only supports **English Steam** versions of Skyrim SE. **GOG and other Languages are not supported**.
 
-Only, Windows 10 and 11 work with Wabbajack fully. LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK**.
+Only, Windows 10 and 11 work with Wabbajack fully. LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK**. Linux compatability is **not possible** at this time owing to certain libraries not present in Wine/Proton required for MO2.
 
 Running the list from Hard Disk Drives or external drives is **STRONGLY ADVISED AGAINST**. A lot of content is swapped at game run time and, as a result, fast storage and ram is needed.
 
@@ -59,7 +59,7 @@ Recommended 1080p/60fps:
 | CPU | 6 core/12 thread | i7 9700k/AMD R5 3600x |
 | Ram | DDR4 Ram  + 20GB Pagefile | 16GB CL16 |
 | Storage | SSD | 1TB Sata based |
-| GPU | 8GB VRAM | RTX 2070/3060 **or** AMD RX6700xt |
+| GPU | 8GB VRAM | RTX 3060 **or** AMD RX6700xt |
 
 Recommended 1440p/60fps:
 
@@ -70,7 +70,7 @@ Recommended 1440p/60fps:
 | Storage | NVME SSD | 1TB M.2 NVME |
 | GPU | 10GB VRAM | RTX 3080 **or** AMD RX6800 |
 
-My specs (1440p 21x9 ENB @ locked 72fps):
+My specs (1440p 21x9 ENB @ locked 61fps):
 
 | Component    | Item |
 |:--------------:|:-------------:|
@@ -79,13 +79,11 @@ My specs (1440p 21x9 ENB @ locked 72fps):
 | Storage | 2TB M.2 NVME |
 | GPU | RTX 3090 FE | 
 
-Space required: Approx 203GB (Downloads included) + 30GB working room for Wabbajack.
+Space required: Approx 136GB (Downloads included) + 30GB working room for Wabbajack.
 
 :warning: **NOTE**: AMD RX 580 and older cards are **not supported**. :warning:
 
 ## :page_facing_up: Installation
-
-:warning: :exclamation: **AVO REQUIRES THE FULL PAID UPDATE TO SKYRIM. IT IS NOT/WILL NOT BE MADE COMPATIBLE WITH THE NON PAID UPDATE OR OLDER VERSIONS** :exclamation: :warning:
 
 Installing AVO is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating).
 
@@ -99,8 +97,7 @@ Prior to installing AVO, please complete the following steps.
 4. Fully disable OneDrive and any other programs which hook into user file areas.
 5. Reinstall Skyrim into a location that is not Program files. Somewhere like `C:\Games` is a good location. If you only have one drive, look into LostDragonist's [SteamLibrary tool](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide).
 6. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
-7. Start the game to the main menu in order to download all the creations.
-8. Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will** mess with the installation and, in the case of the latter, causes more problems than it solves.
+7. Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These **will** mess with the installation and, in the case of the latter, causes more problems than it solves.
 
 ***
 
@@ -116,7 +113,7 @@ Once you have completed pre-installation, download the [latest version of Wabbaj
 
 Downloading and installing AVO can take a while depending on your internet connection and computer. To install AVO, complete the following steps.
 
-1. Open Wabbajack and click on browse modlists. Check the tickbox that says `show unofficial`.
+1. Open Wabbajack and click on browse modlists.
 2. Press the download button on AVO and wait for it to download.
 3. Set the installation folder to be somewhere like C:\Games\AVO. **Do not install it to your desktop or downloads folder.**
 4. The download location does not need to be on a SSD but it makes installing a bit faster.
@@ -132,7 +129,6 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 - Could not download x:
 	- Big files can fail to download due to connection issues. You can either run wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads.
-	- **Make sure you have downloaded all the creation club content!**
 
 - x is not a whitelisted download:
 
@@ -158,11 +154,15 @@ As of version 7, AVO now utilise Root Builder alongside Stock Game to enable eas
 
 ### :telescope: Post Processing
 
-AVO uses [Obsidian Weathers](https://www.nexusmods.com/skyrimspecialedition/mods/12125) for its weather mod and the full [Lux suite](https://www.nexusmods.com/skyrimspecialedition/mods/43158) for lighting. By default, the list comes pre-setup with [Community Shaders (CS)](https://www.nexusmods.com/skyrimspecialedition/mods/86492) and all addons required to power [Amethyst Reshade](https://www.nexusmods.com/skyrimspecialedition/mods/99450).
+AVO uses [Azurite Weathers II](https://www.nexusmods.com/skyrimspecialedition/mods/12125) for its weather mod and [Lux](https://www.nexusmods.com/skyrimspecialedition/mods/43158) for lighting. By default, the list comes pre-setup with [Community Shaders (CS)](https://www.nexusmods.com/skyrimspecialedition/mods/86492) and all addons required.
+
+[The Vanilla ENB](https://www.nexusmods.com/skyrimspecialedition/mods/69595), [Culminated ENB](https://www.nexusmods.com/skyrimspecialedition/mods/53167) and [Silent Horizons 2](https://www.nexusmods.com/skyrimspecialedition/mods/99398) are included as ENB options. If you wish to enable them, you need to deactivate certain mods. The picture below shows which mods to de-activate and to enable:
+
+![Mods to disable before activating ENB](https://raw.githubusercontent.com/Althro/AVO/main/.github/ENB%20Activation.webp)
 
 **NOTE**: Screenshots save to `Overwrite\Game Root`.
 
-**NOTE**: By default, the list is **capped at 72fps**. To change this, you will need to adjust the `ini` file in `SSE Display Tweaks`.
+**NOTE**: By default, the list is **capped at 82fps**. To change this, you will need to adjust the `ini` file in `SSE Display Tweaks` and disable the framerate lock in ENB if using.
 
 ## :arrow_forward: Playing the List
 
@@ -193,15 +193,6 @@ You are welcome to change any others to achieve your desired setup.
 ### :horse_racing: Starting the Game
 
 By default, AVO uses [Optional Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953) to bypass the starting sequence of the game and spawn you into the Helgen tunnel. The equipment chest has been custom configured for the list to provide a range of starting equipment.
-
-## Changes to the Base Game
-
-:warning: **DO NOT IGNORE THIS SECTION!** :warning:
-
-Beginning with this edition of AVO, there are changes to how the creation club is handled. The following is a non exhaustive list of changes.
-
-- Armors have been distributed to NPC's with the quests being diasabled entirely.
-- Certain artifacts are scattered across the province. You may well find them guarded by strong enemies so go prepared.
 	
 ## :chart_with_upwards_trend: Updating the modlist
 
