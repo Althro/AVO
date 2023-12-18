@@ -149,7 +149,7 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 AVO utilises a Wabbajack technology called Stock Game. What this essentially does is create a copy of your Skyrim installation within the installation location of the list. This enables greater compatability with other mod-lists.
 
-As of version 7, AVO now utilise Root Builder alongside Stock Game to enable easier management of hooks such as Reshade and Engine Fixes. Please see the Animonculory [guide on Root Builder](https://github.com/The-Animonculory/Modding-Resources/blob/main/Root Builder for Skyrim AE.md) for more details.
+As of version 7, AVO now utilise Root Builder alongside Stock Game to enable easier management of hooks such as Reshade and Engine Fixes. Please see our guide to [Root Builder](https://github.com/The-Animonculory/Modding-Resources/blob/main/Root%20Builder%20for%20Skyrim%20AE.md) for more details.
 ***
 
 ### :telescope: Post Processing
