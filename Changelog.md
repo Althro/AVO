@@ -1,6 +1,39 @@
 # Changelog
 
+## 8.0 - "Fragments of Reality"
+
+`Released: 18/12/2023`
+
+**Key Information**
+- Downgraded to game version 1.5.97 to fix issues arising during testing of crashes and instability with AE based content
+- Extensive rebuild of list utilising AVO Classic and AVONG
+- Removed **ALL** AE & Creation Club content
+- Updated documentation relating to modifications
+- Updated mods where needed/appropriate
+
+**Changes compared to V7**
+- Added Audio section to facilitate more immersive experience
+- Added full Verolevi suite of animations
+- Complete repatch in xEdit with Modgroups now present
+- Documented some areas to facilitate easier forking/modification
+- Re-added ENB as an option. CS is on by default
+- Re-added Water For ENB to improve water visuals
+- Re-worked and adjusted full lod setup to ensure better visual consistency and distant detail
+- Removed Lux Via to streamline patching and accessibility of list
+- Removed previously optional mods as not in scope
+- Reworked Armors and Weapons to gain greater overall consistency across mods and with Bodyslide
+- Reworked creatures section to be more encompassing and performant
+- Reworked tweaks and fixes section to be more streamlined and less feature creepy
+- Shed 70GB from total install size (I still don't know how...)
+- Split some sections to facilitate easier navigation through the list
+- Stripped down and reworked entire landscape setup to conform to Majestic Landscapes Complex parallax
+- Switched to Azurite Weathers II for compatability with CS and certain ENB's
+
 ## 7.0 - "Visions of Aetherius"
+
+<Details>
+
+`Released: 09/10/2023`
 
 **Key Information**
 - Added Grass lods to improve overall LOD detail and also distant visuals -> This is done at minimal to no performance loss
@@ -15,7 +48,13 @@
 - Tweaked Quick Start setup to be more inline with "starting chest"
 - Updated all mods which required updates
 
+</Details>
+
 ## 6.1
+
+<Details>
+
+`Released: 31/08/2023`
 
 **Key Information**
 - Switched back to Happy Little Trees/Shrubs/Logs to get better consistency.
@@ -24,7 +63,15 @@
 - Updated mods which required updates.
 - Regenned all finishing line.
 
+</Details>
+
+## Older Builds
+
+<Details>
+
 ## 6.0 - "Simplicity of Skyrim"
+
+<Details>
 
 `Released: 18/08/2023`
 
@@ -45,6 +92,8 @@
 - Reworked Trees & Plant setup. Performance is similar or better than before.
 - Simplified multiple areas to allow for greater consistency.
 - Swtiched themes & colours in MO2 to be more accessible
+
+</Details>
 
 ## 6.0 Beta
 
@@ -980,3 +1029,5 @@ Removed:
 </details>
 
 </details>
+
+</Details>

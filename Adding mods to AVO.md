@@ -8,9 +8,9 @@ No modifications are supported as we cannot track down what everyone has done. I
 
 ## Things to Know Before Modifying
 
-AVO uses **Skyrim version 1.6.640**. This means that **you need to use plugins that are made for Skyrim version 1.6.6xx**. If your desired plugin does not exist for 1.6.640 (commonly referred to as AE) then you cannot use it.
+AVO uses **Skyrim version 1.5.97**. This means that **you need to use plugins that are made for Skyrim version 1.5.97**. If your desired plugin does not exist for 1.5.97 then you cannot use it.
 
-AVO is `method` patched which means that you can, within reason, remove or change near enough anything. No modgroups are included as they can complicate matters for newer modders. 
+AVO is `method` patched which means that you can, within reason, remove or change near enough anything. Modgroups are included so ensure that you **disable them** when you are adding anything.
 
 The only things that are not method patched are the generated outputs. These **will need to be regenerated** depending on what you change. More details are given in the relavant sections.
 
@@ -36,62 +36,64 @@ Do not use Loot. Use xEdit, follow the "left matching right" philosophy and also
 
 If you add any mod with a plugin, it's recommended to re-run Synthesis. The patchers are split into 2 groups and can be seen below:
 
-![Picture showing Synthesis groups with the patchers](https://github.com/Althro/AVO/blob/main/.github/AddingModsPics/SynthGroup.png?raw=true)
+![Picture showing Synthesis groups with the patchers](https://raw.githubusercontent.com/Althro/AVO/main/.github/AddingModsPics/Synth%20Group.webp)
 
 No custom data is used in these patches so you can just simply run them.
 
 ## Regenerating AVONG's Lods
 
-The order to do LOD regeneration is: xLodGEN, ACMOS Road Gen, TexGen, DynDOLOD.
+The order to do LOD regeneration is: xLodGEN, Grass Cache, ACMOS Road Gen, TexGen, DynDOLOD.
 
 Open up [this guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/DynDOLOD.md) and follow the steps listed. AVO's preset for DynDOLOD is saved so that you can load that instead of doing the pre-configuration.
 
 ## Adding Mods
 
-Move every addition you make **above** the Synthesis and DynDOLOD esps. There is 191 free `ESP/ESM` slots in AVONG for you to use. Don't consider that a competition though as less is more and ESPFE (ESP flagged ESL) are often a better choice. 
+Move every addition you make **above** the Synthesis and DynDOLOD esps. There is 191 free `ESP/ESM` slots in AVO for you to use. Don't consider that a competition though as less is more and ESPFE (ESP flagged ESL) are often a better choice. 
 
 **WARNING**: All newly added plugins must not have deleted references or be cleaned of them. Failure to do so will result in DynDOLOD being unable to generate Large reference workaround.
 
 ### DLL Plugins
 
-For mods that include SKSE Plugins, **you need to use plugins that are made for Skyrim version 1.6.640**. This is mandatory and if your desired plugin does not exist for 1.6.640 (commonly refered as AE), then you can't use it.
+For mods that include SKSE Plugins, **you need to use plugins that are made for Skyrim version 1.5.97**. This is mandatory and if your desired plugin does not exist for 1.5.97, then you can't use it.
 
-Should you wish to use a plugin that is for on older version of Skyrim, you will need to downgrade the stock game folder and replace **ALL** dll mods 
+Should you wish to use a plugin that is for a newer version of Skyrim, you will need to upgrade the stock game folder and replace **ALL** dll mods which are not utilising the CommonLib-NG.
+
+***
 
 ### Armors and Weapons
 
-Anything that replaces vanilla armors and weapons should be placed **after** Dynamic Lowered Hoods. **NOTE**: The Bodyslide output is mapped to use Resurgence textures except for a few certain mods. Should you wish your new armor mod to be used in Bodyslide, place it after `Xavbio Imp Armor Retex CBBE` on the left pane and then rebuild Bodyslide. There are numerous tutorial on how to do this online so we will not cover this here.
+Anything that replaces vanilla armors and weapons should be placed **after** Dynamic Lowered Hoods. **NOTE**: The Bodyslide output is mapped to use Resurgence textures except for a few certain mods. Should you wish your new armor mod to be used in Bodyslide, place it after `Sleek Wolf Armor` on the left pane and then rebuild Bodyslide. There are numerous tutorial on how to do this online so we will not cover this here.
 
 Any new weapons that are added should have a `Better Shaped Weapons` patch merged in with them to provide consistency.
 
-### Non Armor/Weapons Mesh/Texture Replacers
+***
 
-This is where things can get a bit complicated. What action you'll need to take depends on what your mesh/texture does. Mesh/texture replacer mods tend to fall into three categories: worldspace, non worldspace and NPC replacers. 
+### General Mesh/Texture Replacers (Excluding NPC's)
 
-#### Non Worldspace Meshes/Textures
+:warning: :exclamation: **READ THIS SECTION EXTREMELY CAREFULLY! FAILURE TO DO SO WILL RESULT IN FUNDAMENTAL ERRORS!** :warning: :exclamation:
 
-These are mods that change things relating to: 
-- Interiors
-- Food
+AVO utilises Parallax **extensively**, and as such any mesh replacers need to be compatible with the setup that is there. Lux and Lux Orbis are also utilised which replace a **lot** of meshes to improve lighting. Take **EXTREME CARE** when resolving mesh conflicts.
 
-Simply position these in the correct section as indicated on the left hand side. If there are any esp's present, move them to the correct position and resolve any conflicts that arise in xEdit.
+Beginning with V8, AVO is now utilising Majestic Landscapes Complex Parallax and Majestic Mountains Complex Parallax. As a result of these changes, **ANY** landscape texture replacers **MUST BE EXPLICITY COMPATIBLE** with these mods. Failure to utilise one which is will result in **landscape seams** and potential **parallax errors**.
 
-**Note**: Make sure that the normal maps match for the texture/mesh you are using. If they do not, you will see some weird looking things. NifSkope and Nif Preview are inlcuded so that you can look at meshes/textures easily.
+AVO also utilises **Grass Lods** generated via a combination of DynDOLOD and No Grass In Objects. Both tools are present in the list and **require re-running** each time to you alter anything in the tamriel worldspace. Please refer to our [Grass Lods Guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/Grass%20Lods.md) for more information and steps to re-generate.
 
-#### Worldspace Mesh/Texture Replacers
+:warning: You will have no grass if you do not properly follow this guide! :warning: 
 
-These are mods that change things relating to
-- Landscape
-- Trees
-- Architecture incl: Cities, towns and villages
-- Mountains
+***
 
-These are more involved as you will need to regenerate the LOD files to ensure there is consistency across the worldspace. Please follow the Regenerating lods section.
+### Interiors
 
-#### NPC Replacers
+JK's Interiors and other interior mods may be added to AVO reasonably safely. Just make sure to resolve any conflcits that arise and also re-install Lux to ensure lighting is correct.
+
+***
+
+### NPC Replacers
 
 These are mods that change things relating to:
 - NPC's
 - Facedata
 
-AVONG uses a custom curated mix of NPC overhaul mods however, they may not be to your taste. Should you wish to change them, deactivate them and then add your own. Resolve any conflicts that arise and then you should be fine. If you wish to create new facegen via the CK, please follow [this guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/Regenerating%20Faces%20in%20the%20Creation%20Kit.md) which details the process of doing so.
+By default, AVO does not come with any NPC overhauls. If you wish to add any, simply add them in using the methods mentioned above and resolve any conflicts that arise.
+
+If you wish to create new facegen via the CK, please follow [this guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/Regenerating%20Faces%20in%20the%20Creation%20Kit.md) which details the process of doing so.
