@@ -172,7 +172,7 @@ To enable 21x9 ultrawide support, activate the mods under `21x9 user interface`.
 
 ### :mag: Realtime performance monitoring
 
-AVO includes a mod which enables you to see your FPS and VRAM usage in realtime. To enable this, activate the mod called `OSD Font for SSE Display Tweaks`. **NOTE**: This comes disabled by default.
+AVO includes a mod which enables you to see your FPS and VRAM usage in realtime. To enable this, activate the mod called `OSD Font for SSE Display Tweaks`. **NOTE**: This comes enabled by default.
 
 ***
 
