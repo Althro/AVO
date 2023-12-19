@@ -5,6 +5,7 @@
 **Fixes**
 - Fixed issues with bodyslide on certain armors
 - Fixed issues with terrain around shrine of talos near Helgen.
+- Fixed issue with recommended ENB, NetScript and No Grass in Objects mods not being present in compiled version.
 - Regenerated DynDOLOD & Bodyslide.
 
 **Updated**
