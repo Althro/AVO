@@ -1,5 +1,19 @@
 # Changelog
 
+## 8.0.1
+
+**Fixes**
+- Fixed issues with bodyslide on certain armors
+- Fixed issues with terrain around shrine of talos near Helgen.
+- Regenerated DynDOLOD & Bodyslide.
+
+**Updated**
+- DynDOLOD (Application)
+
+**Removed**
+- Culminated ENB
+- Silent Horizons 2
+
 ## 8.0 - "Fragments of Reality"
 
 `Released: 18/12/2023`
