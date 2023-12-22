@@ -156,7 +156,7 @@ As of version 7, AVO now utilise Root Builder alongside Stock Game to enable eas
 
 AVO uses [Azurite Weathers II](https://www.nexusmods.com/skyrimspecialedition/mods/12125) for its weather mod and [Lux](https://www.nexusmods.com/skyrimspecialedition/mods/43158) for lighting. By default, the list comes pre-setup with [Community Shaders (CS)](https://www.nexusmods.com/skyrimspecialedition/mods/86492) and all addons required.
 
-[The Vanilla ENB](https://www.nexusmods.com/skyrimspecialedition/mods/69595), [Culminated ENB](https://www.nexusmods.com/skyrimspecialedition/mods/53167) and [Silent Horizons 2](https://www.nexusmods.com/skyrimspecialedition/mods/99398) are included as ENB options. If you wish to enable them, you need to deactivate certain mods. The picture below shows which mods to de-activate and to enable:
+[The Vanilla ENB](https://www.nexusmods.com/skyrimspecialedition/mods/69595) is included as ENB options. If you wish to enable them, you need to deactivate certain mods. The picture below shows which mods to de-activate and to enable:
 
 ![Mods to disable before activating ENB](https://raw.githubusercontent.com/Althro/AVO/main/.github/ENB%20Activation.webp)
 
