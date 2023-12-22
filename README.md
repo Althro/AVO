@@ -34,6 +34,10 @@ Wabbajack Modlist Installer by Althro with support from Aetherius Modding.
 
 AVO seeks to bring the game up to modern standards utilising some of the best techniques and technologies availiable, whilst still remaining within reach of most modders. Expect to find minimal tweaks to settlements, essential bug fixes and tweaks, and an extremely well rounded and comprehensive graphical overhaul package.
 
+Curious about how it looks? Watch this video from [Biggie Boss](https://www.youtube.com/@biggie_boss) on it.
+
+[![Tinvaak 2 Showcase](http://img.youtube.com/vi/kJfW7W529DA/maxresdefault.jpg)](https://www.youtube.com/watch?v=kJfW7W529DA)
+
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 ## :computer: System Requirements
@@ -50,7 +54,7 @@ Running the list from Hard Disk Drives or external drives is **STRONGLY ADVISED 
 
 ### Recommended System Requirements
 
-AVO requires a mid to high tier modern system to run to it's fullest potential.
+AVO requires a mid to high tier modern system to run to it's fullest potential. The recommended specs given below are based on utilising the ENB in the list. For community shaders, you can subtract a little bit off them.
 
 Recommended 1080p/60fps:
 
